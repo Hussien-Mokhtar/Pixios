@@ -25,11 +25,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { RiEqualFill } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
 
-
-
-
-
-
+import { Link } from 'react-router-dom';
 
 export default function Navbaar() {
     return (
@@ -51,7 +47,7 @@ export default function Navbaar() {
 
                                 <NavDropdown title="Home ✦" className='title' id="navbarScrollingDropdown" >
                                     <div className="grid">
-                                        <NavDropdown.Item href="#action3"> <img src={demo1} alt="" />
+                                        <NavDropdown.Item href="#action3"> <Link to="/"> <img src={demo1} alt="" /></Link>
                                             <h3>Home1</h3>
                                         </NavDropdown.Item>
 
@@ -79,7 +75,7 @@ export default function Navbaar() {
                                         <NavDropdown.Item href="#action3">
                                             <h1>Shop Structure</h1>
 
-                                            <h5>Shop Standard</h5>
+                                            <h5> <Link to="/shop">Shop Standard</Link></h5>
                                             <h5>Shop List</h5>
                                             <h5>Shop With Category</h5>
                                             <h5>Shop Filters Top Bar</h5>
@@ -102,12 +98,12 @@ export default function Navbaar() {
 
                                             <h1>Shop Pages</h1>
                                             <h5>Wishlist</h5>
-                                            <h5>Cart</h5>
-                                            <h5>Checkout</h5>
+                                            <h5> <Link to="/cart">Cart</Link></h5>
+                                            <h5> <Link to="/checkout">Checkout</Link></h5>
                                             <h5> Compare</h5>
                                             <h5> Order Tracking</h5>
-                                            <h5>Login</h5>
-                                            <h5>Registration</h5>
+                                            <h5> <Link to="/login">Login</Link></h5>
+                                            <h5> <Link to="/register">Register</Link></h5>
                                         </NavDropdown.Item>
 
                                         <div className="wooo">
@@ -131,12 +127,12 @@ export default function Navbaar() {
                                                                 <Col sm={8}><h1>Deal of the month</h1>
                                                                     <h4>Yes! Send me exclusive offers, personalised, and unique gift <br /> ideas, tips for shopping on Pixio <br />
                                                                         View All Products.</h4></Col>
-                                                                <Col sm={4}><div className="btns">
+                                                                {/* <Col sm={4}><div className="btns">
                                                                     <button>31</button>
                                                                     <button>2</button>
                                                                     <button>30</button>
                                                                     <button>6</button>
-                                                                </div></Col>
+                                                                </div></Col> */}
 
                                                             </Row>
                                                             <Col>

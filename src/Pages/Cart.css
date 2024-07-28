@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inside-title p{
+margin-left: 40%;
+}
+.cart-img{
+    display: flex;
+    margin-top: 6%;
+}
+.cart-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+.cart-img h5{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 2%;
+    width: 10rem;
+}
+.cart-img h6{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 10%;
+    color: gray;
+}
+.cart-img h1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.cart-img span{
+       border: 2px solid black; 
+       border-radius: 50px;
+       padding: 0px 15px;
+       display: flex;
+       justify-content: end;
+       align-items: center ;
+       margin-left: 100%;
+   background-color: black;
+   color: white;
+  cursor: pointer; 
+  user-select: none;
+
+}
+.cart-img h4{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 5%;
+    padding: 20px;
+    user-select: none;
+
+ }
+
+ /* ---------------- */
+ .code{
+    display: flex; 
+    justify-content: space-between;
+ }
+ .code input{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px 20px;
+ }
+ .code button{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: 1s;
+ }
+ .code button:hover{
+    transform: scale(1.1);
+ }
+ .quantity{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+ }
+ .quantity h2{
+    font-size: 20px;
+
+ }
+/* --------CRT RIGHT---------- */
+
+.cart-right{
+    margin-top: 20%;
+}
+.card{
+    padding: 20px;
+    border: 1px solid black;
+    width: 120%;
+
+}
+.m-0{
+    padding: 20px;
+    border: none;
+    background-color:#FFFAF3 ;
+}
+.bank{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px ;
+}
+.card h5{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.free{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+.boat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+.order{
+    margin-top: 10%;
+}
+.order-icon{
+    font-size: 20px;
+  margin-right: 1%;
+}
+.flower{
+    transition: 1s;
+}
+.flower:hover{
+transform: scale(1.1)
+}
+
+.total h6{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+.place-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.place-order button{
+    border-radius: 10px;
+    padding: 8px 100px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    border: none;
+    transition: 1s;
+}
+.place-order button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login {
+    display: flex;
+    height: 100vh;
+}
+.login-left {
+flex: 1;
+background-color: #ffeece;
+justify-content: center;
+align-items: center;
+}
+.login-left h1{
+    margin: 10%;
+    background-color: #ffeece;
+}
+.login-left h5{
+    margin: 10%;
+    background-color: #ffeece;
+}
+.login-left span{
+    color: black;
+    background-color: #ffeece;
+}
+
+    .log-img{
+        background-color: #ffeece;
+        position: relative;
+        z-index: 1;
+        margin-top: -5%;
+        margin-bottom: 20%;
+
+    }
+    .log-img img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+         border-radius: 80px;
+         clip-path: circle(55.9% at 51% 49%);   
+         }
+     /* --------- */
+
+         .login-right  {
+            flex: 1;
+            justify-content: center;
+            text-align: center;
+            margin-top: 5%;
+            }
+            .surface-card{
+                justify-content: center;
+                align-items: center;
+                border: 2px solid black;
+                border-radius: 30px;
+                width: fit-content;
+                margin-left: 15%;
+                padding: 90px;
+            }
+            .block h5{
+                margin-left: -25%;
+
+            }
+            .w-full .mb-3 {
+                padding: 10px 50px;
+            }
+
+            .forgot{
+                display: flex;
+                justify-content: space-between;
+            }
+            .sign{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 5%;
+                gap: 2rem;
+            }
+            .sign button{
+                padding: 10px 30px;
+                border-radius: 10px;
+                color: black;
+                border-color: black;
+                font-size: 25px;
+                font-weight: 700;
+            }
+            .in{
+                color: black;
+            }
+            .in:hover{
+                color: white;
+                text-decoration: none;
+            }
+            .signin {
+             transition: 1s;
+            }
+             .signin:hover{
+                color: white;
+              background-color: black;
+              transform: scale(1.1);
+            }
+            .register{
+                transition: 1s;
+            }
+        
+            .register:hover{
+                color: white;
+                background-color: black;
+                transform: scale(1.1);
+              }
+              .fot{
+                margin-top: 5%;
+              }
+  

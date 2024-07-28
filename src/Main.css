@@ -16,13 +16,10 @@ body{
 }
 ::-webkit-scrollbar-track{
     background-color: rgb(252, 203, 203) ;
-
-
 }
 ::-webkit-scrollbar-thumb{
     background-image:linear-gradient(pink,red,green,blue,pink) ;
     border-radius: 50px;
-
 }
 
 
@@ -97,11 +94,8 @@ margin-right: 50px;
 }
 .card-shop{
     color: black;
-    margin: 10px 15px;
     margin-top: -50px;
     transition: 1s;
-
-
 
 }
 .card-shop :hover{
@@ -129,20 +123,22 @@ margin-right: 50px;
 
 }
 
-.btns button{
+/* .btns button{
     padding: 10px 15px;
     margin: 5px 10px;
     border: none;
     background-color:  rgb(232, 232, 232);
     border-radius: 5px;
-    margin-left: 8px;
+    margin-left: -50px;
     transition: 1s;
+} */
 
-}
-.btns button:hover{
+/* .btns button:hover{
     color: white !important;
     background-color: #ad0b30 !important;
-}
+} */
+
+
 
 /* *** BLOG *** */
 
@@ -290,7 +286,8 @@ width: 50rem;
     width: 60px !important;
     border-radius: 30px;
     padding: 15px ;
-    margin: 4%;
+    margin: 60px;
+    margin-top: 5%;
     background-color: #FEEB9D;
     clip-path: none !important;
     cursor: pointer;
@@ -303,6 +300,7 @@ width: 50rem;
 .first-r img{
    width: 25rem;
    border-radius: 20px;
+   margin-left: -10%;
    height: 70%;
    clip-path: polygon(100% 0, 100% 13%, 100% 52%, 83% 65%, 100% 85%, 100% 100%, 0 100%, 0% 35%, 0 0);
 
@@ -336,7 +334,7 @@ width: 50rem;
     border-radius: 20px;
     padding: 10px;
     font-size: 50px;
-    margin-left: -10rem ;
+    margin-left: -50% ;
     margin-top: -50%;
     width: 15%;
     height: 5%;
@@ -349,7 +347,7 @@ width: 50rem;
     border-bottom: 3px solid red;
     border-left:3px solid yellow;
     border-right: 3px solid blue;
-position: relative;
+    position: relative;
 
 }
  
@@ -364,7 +362,7 @@ position: relative;
 }
 .small-star{
     display: flex;
-    margin-left: 100%;
+    margin-left: 80%;
     margin-bottom: -10%;
     margin-top: 2%;
     font-size: 50px;
@@ -645,8 +643,14 @@ del{
 .input-footer:hover{
     border: 5px solid #31A56D;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .small-arrow{
-    font-size: 30px;
+    font-size: 40px;
 }
 .small-arrow:hover{
     transform: scale(1.1);
@@ -654,17 +658,22 @@ del{
 .img-footer{
     width: 100%;
 }
-/* .img-footer h1{
-    margin-bottom: 5%;
+/* .footer-1 {
+    width: 2% !important;
 } */
 .img-footer img{
     width: 80px;
     height: 65px;
     border-radius: 10px;
     margin-bottom: 20%;
-    
-
+    margin-left: 50%; 
+    transition: 1s;
 }
+.img-footer img:hover{
+    transform: scale(1.1);
+}
+
+
 .img-footer h3{
 font-size: 15px;
 margin-left: 1%;

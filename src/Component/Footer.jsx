@@ -12,6 +12,8 @@ import woo from "../Pixio/woogirl-1.png"
 export default function Footer() {
     return (
         <>
+        <hr style={{borderTop:"2px solid black"}}/>
+
         <div className="contain">
         <div className="footer">
                     <Row>
@@ -66,7 +68,6 @@ export default function Footer() {
                          <Col md={2}><p className='p-title-footer'>Footer Menu</p>
                         <p>Instagram Profile <br /><br />New Collection <br /><br />Woman Dress<br /><br />Contact Us <br /><br />Latest News<br /> </p>
                         </Col>
-                        
                         
 
 

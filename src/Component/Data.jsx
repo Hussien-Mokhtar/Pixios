@@ -6,13 +6,15 @@ import tshirt from "../Pixio/tshirt.png"
 import Shorts from "../Pixio/shorts.png"
 import jeans from "../Pixio/jeans.png"
 import amis from "../Pixio/amis.png"
+import waad2 from "../Pixio/waad2.png"
+
 
 
 
 export const testData =  [
 
     {
-        image:  woo ,
+        image:  waad2 ,
         review :  <h1 className="first-women"> Beatiful Woman<br />purple sweater. <br /></h1>,
         price: <h1 className="price"> <span>price</span> <br /> <h5>$80.00</h5></h1> ,
         button1: <button className="the-btn">ADD TO CART</button> ,
@@ -22,7 +24,7 @@ export const testData =  [
     ,
 
     {
-        image: tow,
+        image: woo,
         review : <h1 className="first-women">Shot Slad Curly<br /> Woman. <br /></h1>,
         price: <h1 className="price"> <span>price</span> <br /> <h5>$30.00</h5></h1> ,
         button1: <button className="the-btn">ADD TO CART</button> ,
@@ -31,7 +33,7 @@ export const testData =  [
     }
     ,
     {
-        image: woo,
+        image: tow,
         review : <h1 className="first-women">Athletic Mesh <br /> Sports Leggings. <br /></h1>,
         price: <h1 className="price"> <span>price</span> <br /> <h5>$75.00</h5></h1> ,
         button1: <button className="the-btn">ADD TO CART</button> ,
