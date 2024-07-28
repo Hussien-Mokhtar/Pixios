@@ -1,43 +1,37 @@
-# Getting Started with Create React App
+# Getting Started with Pixios-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project i was used [ Html , Css , Js , Bootstrapreact , React.js , React-Icons ]
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `FIRST THING: The Navbar `
+it contains : 
+1-Home
+2-Shop
+3-Blog
+4-Portfolio
+5- Pages
+6- My account
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* every one from navbar contains pictures or  websites belonging to it..
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `SECOND THING: HOME PAGE`
 
-### `npm test`
+1-I used react-icons to make a some of icons and some animations to make the page exciting..
+[react-bootstrap link](https://react-bootstrap.netlify.app/docs/layout/grid)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2- used clippy to make the picture have a some shapes like we want..
+[Clippy link](https://bennettfeely.com/clippy/)
 
-### `npm run build`
+3-click the play icon to go to [Our youtube](https://www.youtube.com/watch?v=YwYoyQ1JdpQ)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4- Add some cards to show for the customer the clothes,review,price and the models + add a hover to make exciting inside the customer..
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5- make a footer contains (Adress - E-mail - Phone) to the cusomer contact with us
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
