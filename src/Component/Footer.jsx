@@ -1,9 +1,7 @@
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import logo from "../Pixio/logo.svg"
-import { FaArrowRight } from "react-icons/fa6";
 
 import waad from "../Pixio/waad.png"
 import yellow from "../Pixio/yellow.png"
@@ -57,7 +55,6 @@ export default function Footer() {
                         </Col>
 
 
-                           <div className="title-footer">
                            <Col md={2}>
                          <p className='p-title-footer'>Our Stores</p>
                          <p>New York <br /><br />London SF <br /><br />Edinburgh <br /><br />Los Angeles <br /><br />Chicago<br /> <br />Las Vegas</p>
@@ -68,7 +65,6 @@ export default function Footer() {
                          <Col md={2}><p className='p-title-footer'>Footer Menu</p>
                         <p>Instagram Profile <br /><br />New Collection <br /><br />Woman Dress<br /><br />Contact Us <br /><br />Latest News<br /> </p>
                         </Col>
-</div>                        
 
 
                     </Row>
