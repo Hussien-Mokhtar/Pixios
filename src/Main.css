@@ -699,3 +699,111 @@ margin-top: 5%;
     font-size: 20px;
     font-weight: 800;
 }
+/* --------------------------------------  M E D I A Q U E R Y------------------------------------------ */
+@media (min-width:50px) and (max-width:1000px){
+    .first-r{
+        margin-left: -30rem ;
+        margin-top: 30rem ;
+    }
+    .play{
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+    }
+    .emo{
+        margin-top: 15%;
+        margin-left: 15rem;
+        width: 40rem;
+    }
+    .second {
+        width: 80rem ;
+       display: flex ;
+    }
+    .third-right {
+margin-left: 150px;
+    }
+    .third-right h1{
+        width: 150%;
+        margin-left: 5rem;
+     }
+        
+    .third-left img{
+        margin-left: 20rem;
+    }
+
+    .both{
+        margin-left: 20rem;
+    }
+    .marque{
+        width: 100rem;
+    }
+    .forth {
+        margin-left: 30rem;
+        width: 25rem;
+        margin-top: 20px;
+    }
+    .forth-left .i{
+        height: 10rem;
+    }
+    .block{
+        width: 80rem;
+        margin-left: -25rem;
+        margin-top: 10rem !important;
+    }
+    .footer{
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .img-footer{
+        margin-left: 15rem;
+        margin-top: -15rem;
+    }
+    .title-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40rem;
+
+    }
+    .input-footer{
+        margin-left: 15rem;
+    }
+    .contain{
+    width: 100rem ;
+    }
+    .shop-img img{
+        width: 50rem !important;
+    }
+    nav{
+        width: 50rem;
+    }
+    .inside-title {
+        width: 50rem !important;
+    }
+    .prime{
+        width: 20rem !important;
+    }    
+    .size-h{
+        font-size: 25px;
+    }
+    .size button{
+        width: 5rem ;
+    }
+    .products {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .login-left h1{
+        width: 40rem ;
+    }
+    .login{
+        display: flex !important;
+    }
+    .login-right .block h5{
+        margin-left: 15rem;
+    }
+    .forgot{
+        margin-left: 15rem;
+
+    }
+}

@@ -22,7 +22,6 @@ export default function Footer() {
 
                             <section>
                                 <input className='input-footer' type="text" placeholder='Your Email Adress ' required />
-                                <FaArrowRight className='small-arrow' />
 
                             </section>
 
@@ -58,7 +57,8 @@ export default function Footer() {
                         </Col>
 
 
-                         <Col md={2}>
+                           <div className="title-footer">
+                           <Col md={2}>
                          <p className='p-title-footer'>Our Stores</p>
                          <p>New York <br /><br />London SF <br /><br />Edinburgh <br /><br />Los Angeles <br /><br />Chicago<br /> <br />Las Vegas</p>
                          </Col>
@@ -68,7 +68,7 @@ export default function Footer() {
                          <Col md={2}><p className='p-title-footer'>Footer Menu</p>
                         <p>Instagram Profile <br /><br />New Collection <br /><br />Woman Dress<br /><br />Contact Us <br /><br />Latest News<br /> </p>
                         </Col>
-                        
+</div>                        
 
 
                     </Row>

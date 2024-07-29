@@ -12,8 +12,8 @@ export default function Third() {
     <>
 <Container>
       <Row>
-<Col className='third-left'> <img src={pink} alt="" /> <h2>Women Collection</h2></Col>
-        <Col className='third-right'>
+<Col className='third-left'> <img src={pink} alt="" /> </Col>
+        <Col className='third-right'> 
         <h1>Set Your Wardrobe With <br /> Our Amazing Selection! <span><BsArrowUpRightCircleFill/> </span></h1>
 
         <p>Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry. Lorem Ipsum has been the <br /> industry's standard dummy text ever since the</p>

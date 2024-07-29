@@ -1,4 +1,5 @@
 import "./Login.css"
+
 import Navbaar from "../Component/Navbar";
 import log from "../Pixio/log.png"
 import { IoIosArrowForward } from "react-icons/io";

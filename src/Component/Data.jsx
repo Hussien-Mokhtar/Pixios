@@ -13,7 +13,7 @@ import waad2 from "../Pixio/waad2.png"
 
 export const testData =  [
 
-    {
+    { 
         image:  waad2 ,
         review :  <h1 className="first-women"> Beatiful Woman<br />purple sweater. <br /></h1>,
         price: <h1 className="price"> <span>price</span> <br /> <h5>$80.00</h5></h1> ,
