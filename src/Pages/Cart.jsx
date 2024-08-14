@@ -95,7 +95,7 @@ export default function Cardd() {
 
 
 
-
+ 
       <Container>
       <Row>
 
@@ -207,7 +207,7 @@ export default function Cardd() {
       <Col sm={4}>
 
       <div className="cart-right">
-        <h5>Cart Total</h5>
+        <h5 >Cart Total</h5>
 
         <div className="card">
 
@@ -261,6 +261,7 @@ export default function Cardd() {
 
       </Row>
     </Container>
+    
  <br /> <br />
 
     <Footer/>

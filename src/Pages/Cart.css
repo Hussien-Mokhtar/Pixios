@@ -98,14 +98,13 @@ margin-left: 40%;
  }
 /* --------CRT RIGHT---------- */
 
-.cart-right{
+.cart-right {
     margin-top: 20%;
-}
+    }
 .card{
     padding: 20px;
     border: 1px solid black;
     width: 120%;
-
 }
 .m-0{
     padding: 20px;

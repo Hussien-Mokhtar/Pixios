@@ -43,7 +43,7 @@ export const testData =  [
     ,
     {
         image: three,
-        review : <h1 className="first-women">Curly Girl Beatiful <br /> Dress. <br /></h1>,
+        review : <h1 className="first-women">Curly Girl<br /> Beatiful  Dress. <br /></h1>,
         price: <h1 className="price"> <span>price</span> <br /> <h5>$50.00</h5></h1> ,
         button1: <button className="the-btn">ADD TO CART</button> ,
         button2: <button className="the-btn2">VIEW DETAILS</button> 

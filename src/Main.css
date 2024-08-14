@@ -633,12 +633,13 @@ del{
 }
 .input-footer{
     background-color: #FEEB9D;
-    border-radius: 10px;
+    border-radius: 10px 20px;
     border:1px solid #FEEB9D;
     padding: 10px 35px;
     font-size: 20px;
-    color: black !important;
+    color: black ;
     transition: 0.5s;
+    margin-right: 20%;
 }
 .input-footer:hover{
     border: 5px solid #31A56D;

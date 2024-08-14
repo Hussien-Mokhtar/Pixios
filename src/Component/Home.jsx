@@ -22,8 +22,8 @@ export default function Home() {
 
   <div className="first-l">
 
-    <span>{testData[selected].review}</span>
-    <span >{testData[selected].price}   </span > 
+    <span> {testData[selected].review} </span > 
+    <span> {testData[selected].price}   </span > 
 
 <div className="btnn">
  <span >{testData[selected].button1}   </span > 
@@ -38,7 +38,6 @@ export default function Home() {
   <GiPolarStar className="small-star2"/>
 
   <img src={testData[selected].image} alt="" className="hov" />
-
 
     <div className="arrows"> 
       <img onClick={() => 

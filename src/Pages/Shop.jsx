@@ -158,7 +158,7 @@ export default function Shop() {
         <div className="product-title"><h5>Sophisticated <br /> Swagger Suit </h5> <span>$80</span> 
         </div>
            </div>
-          </Col>
+          </Col> 
 
         <Col sm={3}>
         <div className="products-r">
@@ -240,57 +240,6 @@ export default function Shop() {
 
 
         </div>
-
-        
-
-        {/* --------------- */}
-
-        {/* <div className="products">
-
-        <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={waad2} h alt=""/>
-        <div className="product-title"><h5>Sophisticated <br /> Swagger Suit </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-           <div className="products-r">
-           <img src={woo} h alt=""/>
-        <div className="product-title"><h5>Cozy Knit Cardigan <br /> Sweater </h5> <span>$80</span> 
-        </div>
-           </div>
-
-
-        </div> */}
-
         </Col>
       </Row>
         </Container>
