@@ -28,25 +28,28 @@ export default function Cardd() {
       setCount(count + 1)
   } 
   const minus = () =>{
-      setCount (count - 1)
+      {count > 0 && setCount(count-1)}
   } 
   // -------
   const [count1, setCount1] = useState(0)
 
   const Plus1= () =>{
       setCount1(count1 + 1)
+
   } 
   const minus1 = () =>{
-      setCount1 (count1 - 1)
+    {count1 > 0 && setCount1(count1-1)}
   } 
   // ---------
   const [count2, setCount2] = useState(0)
 
   const Plus2= () =>{
       setCount2(count2 + 1)
+      
   } 
   const minus2 = () =>{
-      setCount2 (count2 - 1)
+      {count2 > 0 && setCount2(count2-1)}
+
   } 
   // --------------
   const [count3, setCount3] = useState(0)
@@ -55,7 +58,8 @@ export default function Cardd() {
       setCount3(count3 + 1)
   } 
   const minus3 = () =>{
-      setCount3 (count3 - 1)
+      {count3 > 0 && setCount3(count3-1)}
+
   } 
   // ---------------
   const [count4, setCount4] = useState(0)
@@ -64,7 +68,8 @@ export default function Cardd() {
       setCount4(count4 + 1)
   } 
   const minus4 = () =>{
-      setCount4 (count4 - 1)
+    {count4 > 0 && setCount4(count4-1)}
+
   } 
   // ----------------
   const [count5, setCount5] = useState(0)
@@ -73,7 +78,8 @@ export default function Cardd() {
       setCount5(count5 + 1)
   } 
   const minus5 = () =>{
-      setCount5 (count5 - 1)
+    {count5 > 0 && setCount5(count5-1)}
+
   } 
 
 
@@ -115,7 +121,7 @@ export default function Cardd() {
         <h6>	$40.00</h6>
 
                  <h1 onClick={minus}><span>-</span></h1>
-                <h4>{count}</h4>
+                <h4>{count }</h4>
                 <h1 onClick ={Plus}> <span>+</span> </h1>
 
                 <h6>$160.00</h6>

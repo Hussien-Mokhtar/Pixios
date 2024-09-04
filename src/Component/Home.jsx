@@ -8,19 +8,28 @@ import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import { GiPolarStar } from "react-icons/gi";
+import { motion } from "framer-motion";
+
 
 export default function Home() {
     const [selected, setSelected] = useState(0);
     const tLength = testData.length
-  
+
   return (
     <>
+
 
 <div className="container">
 
 <div className="first">
 
-  <div className="first-l">
+  < motion.div className="first-l" 
+     initial={{ x: '-150%' }}
+     animate={{ x: 0 }}
+     transition={{ duration: 3, ease: 'easeOut' }}
+    
+  
+  >
 
     <span> {testData[selected].review} </span > 
     <span> {testData[selected].price}   </span > 
@@ -31,13 +40,19 @@ export default function Home() {
 
 </div>
 
-  </div>
+  </motion.div>
   <div className="first-r">
 
   <GiPolarStar className="small-star"/>
   <GiPolarStar className="small-star2"/>
 
-  <img src={testData[selected].image} alt="" className="hov" />
+  < motion.img src={testData[selected].image} alt="" className="hov" 
+   initial={{ x: '150%', rotate: -180 }}
+   animate={{ x: 0 , rotate: 0}}
+   transition={{ duration: 2, ease: 'easeOut' }}
+  
+  />
+
 
     <div className="arrows"> 
       <img onClick={() => 
@@ -53,7 +68,7 @@ export default function Home() {
     </div>
     <div className="playy">
 
-    <Link to="https://youtu.be/YwYoyQ1JdpQ"> <FaPlay className="play"/> </Link>
+    <Link to="https://youtu.be/YwYoyQ1JdpQ" target="_blank"> <FaPlay className="play"/> </Link>
 
     </div>
   </div>
@@ -61,7 +76,11 @@ export default function Home() {
 </div>
 
 
-<div className="emo">
+< motion.div className="emo"
+     initial={{ x: '-150%' }}
+     animate={{ x: 0 }}
+     transition={{ duration: 3, ease: 'easeOut' }}
+>
 <FaStarOfLife className="star"/>
 
 <div className="words">
@@ -69,7 +88,7 @@ export default function Home() {
 <h1>TRENDY AND CLASSIC <br /> FOR THE NEW SEASON</h1>
 
 </div>
-</div>
+</motion.div>
 
 
 </div>
